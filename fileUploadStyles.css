@@ -1,0 +1,72 @@
+
+.file-wrapper {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.file-wrapper .button {
+  background: #95B5CE;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: PTSansNarrow, 'Lucida Grande', Verdana, serif;
+  color: #fff;
+  padding: 4px 18px;
+  margin-bottom: 10px;
+}
+
+.file-wrapper input {
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  filter: alpha(opacity=1);
+  -moz-opacity: 0.01;
+  opacity: 0.01;
+  font-size: 100px;
+}
+
+.preview {
+	display: inline-block;
+	margin: 1em;
+}
+
+.previewImage {
+	position: relative;
+	background-image: url(image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+	height: 100px;
+	width: 150px;
+}
+
+.previewImage img {
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    filter: alpha(opacity=0.2);
+  	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+.previewImage img:hover {
+	filter: alpha(opacity=0.1);
+  	-moz-opacity: 0.9;
+	opacity: 0.9;
+}
+
+.cover {
+	border-radius: 5px;
+	border: 5px solid RGB(140, 211, 145);
+	background-color: RGB(140, 211, 145);
+}
